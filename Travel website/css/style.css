@@ -5,5 +5,38 @@
     box-sizing: border-box;
 }
 body{
-    font-family: 'Montserrat', sans-serif;
+    font-family:'Montserrat',sans-serif;
+}
+.header{  
+    height: 90vh;
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("../img/header-image2.jpg") ;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;  
+}
+.header .nav-baar h1{
+    color:white;
+    float: left;
+    margin-left: 3rem;
+}
+.header .nav-baar{
+    margin: 3rem 4rem;;
+}
+.nav-baar .list-item{
+    display: inline-block;
+    margin-left: 4rem;
+}
+a{
+    color: white;
+}
+.header .nav-baar .list-items{
+   color : white;
+   float: right;
+   margin-right: 4rem;
+}
+
+.nav-baar::after{
+    content: "";
+    display :block;
+    clear :both
 }
