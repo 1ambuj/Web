@@ -66,7 +66,7 @@ const get_answer = ()=>{
     option_input.forEach(
         (input)=>{
               if(input.checked){
-                    console.log(input.value);
+                 answer = input.value
               }
     })
     return answer;

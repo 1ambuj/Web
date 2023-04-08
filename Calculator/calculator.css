@@ -5,13 +5,13 @@
 }
 .container{
     width: 100%;
+    min-width: fit-content;
     height: 100vh;
     display: flex;
     justify-content: center;
     text-align: center;
 }
 .box{
-    width: 26%;
     height: 200px;
     background-color: black;
 }
