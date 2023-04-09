@@ -115,6 +115,7 @@ a,a:hover{
     margin-bottom: 5em;
     height: 350px;
     background-color: #fff;
+    box-shadow: 0px 0px 20px 0px #aaa;
 }
 .first-row .img,.second-row .text{
       float: left;
@@ -138,7 +139,7 @@ a,a:hover{
     width: 100%;
     object-fit: cover;
 }
-.my-row::after{
+.row::after{
     content:" ";
     display: block;
     clear: both;
@@ -148,6 +149,34 @@ a,a:hover{
     margin-top: 1em;
     padding: 0.5em 3rem;
     border-radius: 20px;
+    border: 2px solid #e63946;
+    background-color: #fff;
 }
-
-
+.btn:hover{
+    background-color: #ddd;
+}
+.row .inside-row{
+    float: left;
+    width:33.33%;
+    height:100%;
+    padding:5em 1em;
+}
+.box1,.box3{
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+}
+.row .box2{
+    background-color: #e63946;
+    color: #fff;
+    text-align: center;
+}
+.footer1{
+    background-color: #333;
+    padding:4rem;
+    text-align: center; 
+}
+.social-media i{
+    text-align: center;
+    margin: 2rem ;
+}
