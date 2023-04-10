@@ -26,6 +26,7 @@ a,a:hover{
  p,li{
     font-size: 1.6rem;
     margin-bottom: 0.5em;
+    list-style-type:none ;
  }
 .container{
     max-width: 1200px;
@@ -55,6 +56,9 @@ a,a:hover{
 .text-gray{
     color:#555
 }
+.bg-dark{
+    background-color: #263238;
+}
 .header{  
     height: 90vh;
     background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("../img/header-image2.jpg") ;
@@ -63,11 +67,11 @@ a,a:hover{
     background-size: cover;  
     position: relative;
 }
-.header .nav-baar{
+ .nav-baar{
     margin-top: 1em;
     padding:1rem
 }
-.header .nav-baar h1{
+.nav-baar h1{
     color:white;
     float: left;
 }
@@ -78,7 +82,7 @@ a,a:hover{
     text-transform: uppercase;
 }
 
-.header .nav-baar .list-items{
+.nav-baar .list-items{
    float: right;
 }
 
@@ -179,4 +183,88 @@ a,a:hover{
 .social-media i{
     text-align: center;
     margin: 2rem ;
+}
+
+
+
+/* ############# About page styling ################# */
+
+.about{
+    margin: 3rem;
+}
+.about-hd{
+    border-bottom:4px solid #e63946;
+    padding: 0.4rem 0;
+}
+
+.check{
+    margin: 3rem 0rem;
+    text-align:center;
+}
+.check-box1,.check-box2{
+    height: 100%;
+}
+.check-box1{
+    float: left;
+    width: 50%;
+}
+.check-box2{
+    float: right;
+    width: 50%;
+}
+.check::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+.check li{
+    padding: 1rem;
+}
+
+.check li::before{
+    content: '\2713';
+    color: #e63946;
+    padding-right: 1rem;
+    font-weight: bold;
+}
+
+/* ######################## styling count################################ */
+.count{
+    text-align: center;
+}
+.count-item{
+    width: 25%;
+    margin-bottom: 4rem;
+
+}
+.count-item1,.count-item2,.count-item3,.count-item4{
+    float: left;
+}
+.count span{
+    color: #e63946;
+    font-size: xx-large;
+    font-weight: bold;
+}
+
+.count::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+/* ############styling contact baner########################### */
+
+
+.cta-baner{
+    background: linear-gradient(25deg,#d64c7f,#ee4758 50%);
+    color: #fff;
+}
+
+.cta-baner-left{
+    width: 60%;
+    float: left;
+}
+.cta-baner-right{
+    width:40%;
+    float : right;
 }
