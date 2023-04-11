@@ -258,6 +258,8 @@ a,a:hover{
 .cta-baner{
     background: linear-gradient(25deg,#d64c7f,#ee4758 50%);
     color: #fff;
+    padding:3rem;
+    width: 90%;
 }
 
 .cta-baner-left{
@@ -265,6 +267,17 @@ a,a:hover{
     float: left;
 }
 .cta-baner-right{
-    width:40%;
+    width:30%;
     float : right;
+}
+
+.cta-baner::after{
+    content: "";
+    display: block;
+    clear:both;
+}
+
+.btn-sim{
+    border:1px solid #fff;
+    padding:1rem 4rem;
 }
