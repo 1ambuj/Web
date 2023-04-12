@@ -177,7 +177,7 @@ a,a:hover{
 }
 .footer1{
     background-color: #333;
-    padding:4rem;
+    padding:1rem;
     text-align: center; 
 }
 .social-media i{
@@ -280,4 +280,89 @@ a,a:hover{
 .btn-sim{
     border:1px solid #fff;
     padding:1rem 4rem;
+}
+
+/* ########### contact designing page############################# */
+
+.contact-form{
+    background: #f7f7f7;
+}
+
+.form-wraper{
+    margin: 3rem ;
+}
+.form-wraper .address{
+    float: left;
+    width: 48%;
+    background: #fff;
+    padding: 2rem;
+    height: 600px;
+}
+
+.form-wraper .form{
+    float: right;
+    width: 48%;
+    background: #fff;
+    padding: 2rem;
+    height: 600px;
+}   
+.address .loc-group{
+    margin-bottom: 2rem;
+}
+
+.form-wraper .address h1{
+    display: inline;
+    margin-right: 1rem;
+    margin-bottom: 0.5rem;
+}
+
+.form-wraper .address i{
+    display: inline;
+}
+
+
+.form-wraper .form label{
+    display: block;
+    margin-bottom: 1rem;
+    font-size: 2rem;
+
+}
+.form-wraper .form input{
+    display: block;
+    margin-bottom: 1rem;
+    padding: 0.4rem;
+    width: 100%;
+
+}
+
+.form h1{
+    border-bottom: 3px solid #e63946;
+}
+
+.form-wraper .form label::after{
+    content: "*";
+    color: #e63946;
+}
+
+.form-wraper .form textarea{
+    width: 100%;
+    height: 200px;
+    padding: 1rem;
+    margin-bottom: 1rem;
+}
+
+.form-wraper .form .form-btn{
+    width:100%;
+    padding:1rem;
+    font-size:2rem ;
+    background: #fff;
+    color: #e63946;
+    font-weight: bold;
+
+}
+
+.form-wraper::after{
+    content: "";  
+    display: block;
+    clear: both;  
 }
