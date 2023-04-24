@@ -1,0 +1,24 @@
+.header{
+    background: #a77373;
+    width: 100%;
+    height: 90vh;
+}
+.nav{
+    display: flex;
+    text-align: center;
+    background: #333;
+    height:70px
+}
+
+.nav .logo img{
+    width: 60px;
+    background: #6b1313;
+}
+.nav li a{
+    text-decoration: none;
+}
+
+
+.nav li{
+    list-style: none;
+}
